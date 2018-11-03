@@ -1,0 +1,70 @@
+<!-- <view class="title">
+  <navigator class="edit">
+    <view class='i'></view>
+    编辑
+  </navigator>
+</view> -->
+<view class="sc_box">
+  <view class="box">
+    <view class="h_shop">
+      <navigator href="javasrcipt: void(0);">
+        <view class='i_round'></view>
+        <view class='i_shop'></view>
+        上海随心订
+      </navigator>
+    </view>
+    <view class="p_blo">
+      <view class='li'>
+        <navigator class="round">
+          <view class="i_round">
+          </view>
+        </navigator>
+        <view class="img">
+          <image src='https://wxapp.seeyoo-tech.cn/bd/wx/007.jpg' mode='widthFix'></image>
+        </view>
+        <view class="c_txt">
+          <view class='h4'>优倍高品质鲜牛奶随手杯260ml</view>
+          <text>配送模式：每日送</text>
+          <text>配送时间：2018-11-01至2018-12-31</text>
+          <text>每次配送：1份</text>
+          <text>总数量： 31份 </text>
+        </view>
+        <view class="pri">
+          ¥ 201.5
+        </view>
+        <view class="clr"></view>
+      </view>
+      <view class='li'>
+        <navigator class="round">
+          <view class="i_round">
+          </view>
+        </navigator>
+        <view class="img">
+          <image src='https://wxapp.seeyoo-tech.cn/bd/wx/007.jpg' mode='widthFix'></image>
+        </view>
+        <view class="c_txt">
+          <view class='h4'>优倍高品质鲜牛奶随手杯260ml</view>
+          <text>配送模式：每日送</text>
+          <text>配送时间：2018-11-01至2018-12-31</text>
+          <text>每次配送：1份</text>
+          <text>总数量： 31份 </text>
+        </view>
+        <view class="pri">
+          ¥ 201.5
+        </view>
+        <view class="clr"></view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="fs">
+  <view class="total">
+    合计金额：
+    <text>136.4元</text>
+  </view>
+  <view class="btn">
+    <navigator ref="javasrcipt: void(0);" class="l_b">
+      结算
+    </navigator>
+  </view>
+</view>

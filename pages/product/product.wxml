@@ -1,0 +1,103 @@
+<view class="product">
+  <view class="pro_img">
+    <image src='https://wxapp.seeyoo-tech.cn/bd/wx/product_01.jpg'></image>
+  </view>
+  <view class="p_t">
+    <view class="t">
+      优倍高品质鲜牛奶随手杯260ml
+    </view>
+    <view class="p">
+      ¥ 6.5
+    </view>
+    <navigator href="javasrcipt: void(0);" class="s">
+      <image src='https://wxapp.seeyoo-tech.cn/bd/wx/icon_share.png' mode='widthFix' style='width:120rpx'></image>
+    </navigator>
+  </view>
+  <view class="p_c">
+    <navigator class="blo">
+      <view class="mt">
+        <text class="on">送</text>
+        <text class="tw">至：</text>
+        <view class="clr"></view>
+      </view>
+      <view class="co">
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+          <view class="picker">
+            {{region[0]}}，{{region[1]}}，{{region[2]}}
+          </view>
+        </picker>
+      </view>
+      <view class='i'></view>
+      <view class="clr"></view>
+    </navigator>
+    <navigator class="blo">
+      <view class="mt">
+        <text class="on">选</text>
+        <text class="tw">择：</text>
+        <view class="clr"></view>
+      </view>
+      <view class="co">
+        <picker mode="date" value="{{startDate}}" start="2015-09-01" end="2027-09-01" bindchange="bindStartDateChange">
+          <view class="picker">
+            配送时间: {{startDate}}
+            
+          </view>
+        </picker>
+        至
+        <picker mode="date" value="{{endDate}}" start="2015-09-01" end="2027-09-01" bindchange="bindEndDateChange">
+              <view class="picker">
+                {{endDate}}
+              </view>
+            </picker>
+      </view>
+      <view class='i'></view>
+      <view class="clr"></view>
+    </navigator>
+  </view>
+  <view class="p_c">
+    <navigator class="blo">
+      <view class="mt">
+        配送方式：
+      </view>
+      <view class="co">光明随心订</view>
+      <view class="clr"></view>
+    </navigator>
+    <navigator class="blo">
+      <view class="mt">
+        产品规格：
+      </view>
+      <view class="co">260ml</view>
+      <view class="clr"></view>
+    </navigator>
+    <navigator class="blo">
+      <view class="mt">
+        订奶规格：
+      </view>
+      <view class="co">现在下单，光明随心订最早将于2018-11-01开始为您配送</view>
+      <view class="clr"></view>
+    </navigator>
+  </view>
+  <view class="p_b">
+    <view class="t_c">
+      图文详情
+    </view>
+    <view class="line"></view>
+    <view class="img">
+      <image src='https://wxapp.seeyoo-tech.cn/bd/wx/product_img.jpg' mode='widthFix' style='width:100%'></image>
+    </view>
+  </view>
+</view>
+<view class="fix_set">
+  <view class="total">
+    合计金额：
+    <text>201.5元</text>
+  </view>
+  <view class="btn">
+    <navigator class="l_b">
+      加入购物车
+    </navigator>
+    <navigator class="r_b">
+      立即购买
+    </navigator>
+  </view>
+</view>

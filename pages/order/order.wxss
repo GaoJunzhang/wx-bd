@@ -1,0 +1,169 @@
+Page {
+  background: #f2f2f4;
+}
+
+.cha_btn {
+  height: 42px;
+  padding: 0;
+}
+
+.cha_btn .b_ch {
+  width: 100%;
+  height: 42px;
+}
+
+.cha_btn .b_ch navigator {
+  width: 50%;
+  position: relative;
+  display: block;
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+  text-align: center;
+}
+
+.cha_btn .b_ch navigator:hover, .cha_btn .b_ch navigator.hover {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.cha_btn .mar {
+  margin: 12px auto 0;
+}
+
+.cha_btn .box .h_shop .l {
+  width: 200px;
+  float: left;
+  display: block;
+  color: #383b41;
+  line-height: 42px;
+  margin: 0 15px;
+  font-size: 12px;
+}
+
+.cha_btn .box .h_shop .l .shop {
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 15px 4px 15px 0;
+  background: url(https://wxapp.seeyoo-tech.cn/bd/wx/icon_shop.png) no-repeat;
+}
+
+.cha_btn .box .h_shop text.r {
+  text-align: right;
+  float: right;
+  line-height: 42px;
+  font-size: 12px;
+  color: #82858b;
+  margin: 0 15px 0 0;
+}
+
+.cha_btn .box .ma_c {
+  border-top: 0.5px solid #f2f1f0;
+  border-bottom: 0.5px solid #f2f1f0;
+  padding: 6px 0 30px;
+  position: relative;
+}
+
+.cha_btn .box .ma_c .img {
+  width: 70px;
+  height: 84px;
+  float: left;
+  text-align: center;
+}
+
+.cha_btn .box .ma_c .img image {
+  height: 72px;
+  width: 100%;
+  margin: 6px 0;
+}
+
+.cha_btn .box .ma_c .c_txt {
+  float: left;
+}
+
+.cha_btn .box .ma_c .c_txt .h4 {
+  font-size: 13px;
+  margin: 14px 0 6px;
+}
+
+.cha_btn .box .ma_c .c_txt text {
+  font-size: 12px;
+  color: #82858b;
+  display: block;
+}
+
+.cha_btn .box .ma_c .pri {
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  color: #fe000d;
+}
+
+.cha_btn .box .ma_c navigator.or_c {
+  border: 1px solid #c1c3c8;
+  font-size: 12px;
+  width: 64px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #82858b;
+  display: block;
+  position: absolute;
+  right: 15px;
+  bottom: 16px;
+  border-radius: 5px;
+}
+
+.cha_btn .box .ma_c text.p {
+  color: #383b41;
+  font-size: 14px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}
+
+.cha_btn .box .all_p {
+  color: #383b41;
+  font-size: 12px;
+  margin: 0 15px;
+  text-align: right;
+  padding: 12px 0;
+}
+
+.cha_btn .box .h_shop text.red {
+  color: #fe000d;
+}
+
+.cha_btn .box .pad {
+  padding: 6px 0 12px;
+}
+
+.sc_box {
+  width: 100%;
+  height: 80rpx;
+  display: block;
+  padding: 5px 0 0;
+  /* background: -webkit-linear-gradient(90deg, #1e69c8, #0d3897);
+  background: -o-linear-gradient(90deg, #1e69c8, #0d3897);
+  background: -moz-linear-gradient(90deg, #1e69c8, #0d3897);
+  background: linear-gradient(90deg, #1e69c8, #0d3897); */
+  background: #1e69c8;
+}
+
+.sc_box .box {
+  width: calc(100% - 24px);
+  margin: 0 auto 14px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  position: relative;
+}
+
+.sc_box .box .h_shop {
+  width: 100%;
+  height: 42px;
+  border-bottom: 0.5px solid #f2f1f0;
+}

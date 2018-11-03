@@ -1,0 +1,105 @@
+.ban_img {
+  width: 100%;
+}
+
+.ban_img image {
+  width: 100%;
+  display: block;
+}
+
+.coff {
+  width: 100%;
+  background: #f2f1f0;
+}
+
+.coff .left {
+  width: 72px;
+  float: left;
+}
+
+.coff .left .ul {
+  width: 100%;
+  margin: 0;
+}
+
+.coff .left .ul .li {
+  width: 100%;
+  height: 42px;
+}
+
+.coff .left .ul .li navigator {
+  display: block;
+  font-size: 12px;
+  color: #938c86;
+  text-align: center;
+  line-height: 42px;
+  border-left: 4px solid #f2f1f0;
+  box-sizing: inherit;
+}
+
+.coff .left .ul .li navigator:hover, .coff .left .ul .li navigator.hover {
+  background: #fff;
+  border-left: 3px solid #0d3897;
+  font-weight: bold;
+  color: #0d3897;
+}
+
+.coff .right {
+  width: calc(100% - 72px);
+  float: left;
+  background: #fff;
+}
+
+.coff .right .tit_one {
+  font-size: 12px;
+  height: 42px;
+  line-height: 42px;
+  margin: 0 12px;
+  border-bottom: 0.5px solid #f2f1f0;
+}
+
+.coff .right .ul {
+  width: 100%;
+  background: #fff;
+  margin: 0 0 140px;
+}
+
+.coff .right .ul .li {
+  border-bottom: 0.5px solid #f2f1f0;
+  margin: 0 10px 0;
+  position: relative;
+  display: flex;
+}
+
+.coff .right .ul .li navigator {
+  width: 50%;
+  display: block;
+  float: left;
+  padding: 8px 12px;
+}
+
+.coff .right .ul .li navigator .l {
+  border-right: 0.5px solid #f2f1f0;
+}
+
+.coff .right .ul .li navigator .pro {
+  text-align: center;
+  width: 100%;
+}
+
+.coff .right .ul .li navigator .pro image {
+  height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.coff .right .ul .li navigator .name {
+  text-align: left;
+  margin: 5px 0 0;
+}
+
+.coff .right .ul .li navigator .price {
+  text-align: right;
+  color: #fe000d;
+  margin: 5px 0 0;
+}

@@ -1,0 +1,13 @@
+<view class="coll_ps">
+    <view class="ps">
+        授权提示
+    </view>
+    <view class="in_tips">
+        为了提升用户体验，需获取您(昵称、头像)信息
+    </view>
+    <view class="btn_id">
+          <button  class="d" open-type='getUserInfo'lang="zh_CN" bindgetuserinfo='onGotUserInfo'>
+            同意获取
+        </button> 
+    </view>
+</view>

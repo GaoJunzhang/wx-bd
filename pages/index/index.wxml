@@ -1,0 +1,123 @@
+<swiper class='ban_img' autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+  <block wx:for="{{imgs}}" wx:key="*this">
+    <swiper-item>
+      <image src='{{item.img}}' mode='widthFix'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="coff">
+  <view class="left">
+    <view class='ul'>
+      <view class='li' wx:for="{{categorys}}" wx:key="{{item.id}}">
+        <navigator class="{{select==item.id?'hover':''}}">
+          {{item.name}}
+        </navigator>
+      </view>
+
+    </view>
+  </view>
+  <view class="right">
+    <view class='ul'>
+      <view wx:for="{{categorys}}" wx:key="{{item.id}}">
+        <view class="tit_one">
+          {{item.name}}
+        </view>
+        <view class='li'>
+          <navigator class="l" wx:for="{{item.bdGoods}}" wx:for-item='index' wx:key="{{index.id}}">
+            <view class="pro">
+              <image src='{{index.url}}' mode='aspectFit'></image>
+            </view>
+            <view class="name">
+              {{index.name}}
+            </view>
+            <view class="price">
+              ¥ 6.5
+            </view>
+          </navigator>
+          <!-- <navigator>
+            <view class="pro">
+              <image src='https://wxapp.seeyoo-tech.cn/bd/wx/008.jpg' mode='aspectFit'></image>
+            </view>
+            <view class="name">
+              优倍高品质鲜牛奶随手杯260ml
+            </view>
+            <view class="price">
+              ¥ 6.5
+            </view>
+          </navigator> -->
+        </view>
+          <view class="clr"></view>
+        <!-- <view class='li'>
+          <navigator class="l">
+            <view class="pro">
+              <image src='https://wxapp.seeyoo-tech.cn/bd/wx/009.jpg' mode='aspectFit'></image>
+            </view>
+            <view class="name">
+              优倍高品质鲜牛奶随手杯260ml
+            </view>
+            <view class="price">
+              ¥ 6.5
+            </view>
+          </navigator>
+          <view class="clr"></view>
+        </view> -->
+      </view>
+      <!-- <view>
+      <view class="tit_one">
+        鲜酸奶
+      </view>
+      <view class='li'>
+        <navigator class="l">
+          <view class="pro">
+            <image src='https://wxapp.seeyoo-tech.cn/bd/wx/003.jpg' mode='aspectFit'></image>
+          </view>
+          <view class="name">
+            优倍高品质鲜牛奶随手杯260ml
+          </view>
+          <view class="price">
+            ¥ 6.5
+          </view>
+        </navigator>
+        <navigator>
+          <view class="pro">
+            <image src='https://wxapp.seeyoo-tech.cn/bd/wx/004.jpg' mode='aspectFit'></image>
+          </view>
+          <view class="name">
+            优倍高品质鲜牛奶随手杯260ml
+          </view>
+          <view class="price">
+            ¥ 6.5
+          </view>
+        </navigator>
+        <view class="clr"></view>
+      </view>
+    </view> -->
+      <view class='li'>
+        <navigator class="l">
+          <view class="pro">
+            <image src='https://wxapp.seeyoo-tech.cn/bd/wx/005.jpg' mode='aspectFit'></image>
+          </view>
+          <view class="name">
+            优倍高品质鲜牛奶随手杯260ml
+          </view>
+          <view class="price">
+            ¥ 6.5
+          </view>
+        </navigator>
+        <navigator>
+          <view class="pro">
+            <image src='https://wxapp.seeyoo-tech.cn/bd/wx/006.jpg' mode='aspectFit'></image>
+          </view>
+          <view class="name">
+            优倍高品质鲜牛奶随手杯260ml
+          </view>
+          <view class="price">
+            ¥ 6.5
+          </view>
+        </navigator>
+        <view class="clr"></view>
+      </view>
+    </view>
+  </view>
+  <view class="clr"></view>
+</view>

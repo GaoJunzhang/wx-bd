@@ -1,0 +1,24 @@
+@import 'style/weui.wxss';
+
+view {
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+  color: #383b41;
+  outline: none;
+  font-family: 'OpenSans', '黑体-简', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.clr {
+  clear: both;
+}
+
+text {
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}

@@ -1,0 +1,22 @@
+<view class="qr_enter">
+  <view class="key">
+    <image src='https://wxapp.seeyoo-tech.cn/bd/wx/icon_key.png' mode='widthFix' style='width:76px'></image>
+  </view>
+  <view class="ec">请输入正确的兑换码</view>
+  <view class="inp">
+    <input></input>
+    <input></input>
+    <input></input>
+    <input></input>
+    <input></input>
+    <input></input>
+  </view>
+  <view class="btn_c">
+    <navigator>
+      确定
+    </navigator>
+  </view>
+  <navigator class="change" bindtap='scan'>
+    切换输入扫码取货
+  </navigator>
+</view>

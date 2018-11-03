@@ -1,0 +1,27 @@
+.head {
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  display: block;
+  padding: 36px 0 0;
+  /* background: -webkit-linear-gradient(90deg, #1e69c8, #0d3897);
+  background: -o-linear-gradient(90deg, #1e69c8, #0d3897);
+  background: -moz-linear-gradient(90deg, #1e69c8, #0d3897);
+  background: linear-gradient(90deg, #1e69c8, #0d3897); */
+  background: #1E69C8;
+}
+
+.head image {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.head text {
+  color: #fff;
+  display: block;
+  margin: 10px 0 0;
+}
